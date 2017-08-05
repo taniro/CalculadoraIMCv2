@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
                 altura.setText(data.getStringExtra("resultado"));
 
             }else if (resultCode == RESULT_CANCELED){
-                Toast.makeText(this, "Cancelado2", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Cancelado2 teste", Toast.LENGTH_SHORT).show();
             }
         }
     }
